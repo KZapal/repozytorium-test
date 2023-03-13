@@ -1,1 +1,3 @@
 # repozytorium-test
+
+opis projektu
