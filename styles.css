@@ -1,14 +1,4 @@
-.portable-infobox {
-    width: 300px;
-    border: 1px solid #aaa;
-    margin-top: 0.4em;
-}
-
-aside {
-    width: 350px;
-    display: block;
-}
-
-main {
-    width: 350px;
+.aside{
+    background-color: blue;
+    color: #b155b1;
 }
