@@ -3,10 +3,35 @@ main {
     line-height: 1.75;
 }
 aside {
-    display: flex;
+    width: 350px;
+    height: 3350px;
+  
+    border: 5px solid #f44336;
+    padding: 5px;
+    margin: 20px;
+    background-color: #ffeb3b;
 }
 body {
     display: flex;
     flex-direction: row-reverse;
+    background-color: #dfe7e5;
    
+}
+.border-header-thirty {
+    margin-top: 0;
+    margin-bottom: 20px;
+    border: 2px dashed rgb(117, 0, 128);
+}
+.border-header-secondary {
+    margin-top: 0;
+    margin-bottom: 20px;
+    border: 2px dashed teal;
+    text-align: center;
+}
+.image-border-figure{
+    margin: auto;
+    text-align: center;
+}
+.main-header{
+    text-align: center;
 }
