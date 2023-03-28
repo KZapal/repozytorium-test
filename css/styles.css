@@ -1,3 +1,7 @@
+.main-blocks{
+display: flex;
+flex-direction: column;
+}
 main {
     font-weight: 400;
     line-height: 1.75;
@@ -17,21 +21,30 @@ body {
     background-color: #dfe7e5;
    
 }
-.border-header-thirty {
-    margin-top: 0;
-    margin-bottom: 20px;
-    border: 2px dashed rgb(117, 0, 128);
-}
+
 .border-header-secondary {
     margin-top: 0;
     margin-bottom: 20px;
     border: 2px dashed teal;
     text-align: center;
 }
+
 .image-border-figure{
     margin: auto;
     text-align: center;
 }
+
 .main-header{
     text-align: center;
 }
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .grow-whats{
+    flex-grow: 2;
+  }
