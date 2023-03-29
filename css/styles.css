@@ -8,7 +8,7 @@ main {
 }
 aside {
     width: 350px;
-    height: 3350px;
+    height: 2350px;
   
     border: 5px solid #f44336;
     padding: 5px;
@@ -43,8 +43,20 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    
+  }
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
   }
 
-  .grow-whats{
-    flex-grow: 2;
+  ul{
+    list-style-type: none;
+  }
+  
+  .blocks-center{
+    display: flex;
+    justify-content: center;
   }
