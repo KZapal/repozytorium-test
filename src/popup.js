@@ -27,7 +27,7 @@ function init() {
               alt="."
             />
             <div class="book-info__flex">
-              <h4 class="book__title">${data.list_name}</h4>
+              <h4 class="book__title">${data.title}</h4>
               <p class="book__author">${data.author}</p>
               <p class="book__description">
                 ${data.description}
